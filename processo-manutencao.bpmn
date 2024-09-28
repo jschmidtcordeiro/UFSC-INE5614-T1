@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_09n357d" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.27.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.5.0">
+  <bpmn:collaboration id="Collaboration_0d1yfa1">
+    <bpmn:participant id="Participant_04gkux7" processRef="Process_1x1g8m3" />
+    <bpmn:participant id="Participant_053h719" processRef="Process_1as715a" />
+    <bpmn:participant id="Participant_1n76gn3" processRef="Process_1n1kzxo" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1x1g8m3" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1" />
+  </bpmn:process>
+  <bpmn:process id="Process_1as715a" isExecutable="false" />
+  <bpmn:process id="Process_1n1kzxo" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_0xe1s3q" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0d1yfa1">
+      <bpmndi:BPMNShape id="Participant_04gkux7_di" bpmnElement="Participant_04gkux7" isHorizontal="true">
+        <dc:Bounds x="160" y="52" width="600" height="250" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="329" y="159" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_053h719_di" bpmnElement="Participant_053h719" isHorizontal="true">
+        <dc:Bounds x="160" y="300" width="600" height="250" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_1n76gn3_di" bpmnElement="Participant_1n76gn3" isHorizontal="true">
+        <dc:Bounds x="160" y="550" width="600" height="250" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
